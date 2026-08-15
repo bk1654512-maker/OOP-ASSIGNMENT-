@@ -1,0 +1,251 @@
+Object-Oriented Programming
+
+Week 3 Assignment
+
+Student Information
+
+- Name: Bilal
+- Seat No.: B25110006035
+- Section: B
+- Course: Object-Oriented Programming
+- Program: BSCS
+- Year: First Year
+- Semester: Second Semester
+
+---
+
+Assignment Overview
+
+This submission contains the implementation and practice of important Object-Oriented Programming concepts covered in Week 3.
+
+The assignment focuses on classes and objects, constructors, encapsulation, getters and setters, object references, method calls, arithmetic operations, copy constructors, and stack and heap visualization.
+
+---
+
+1. Point and Triangle
+
+Folder: "PointTriangle"
+
+Point.java
+
+The "Point" class represents a point using two coordinates.
+
+The Point class includes:
+
+- Private "x" and "y" attributes
+- No-argument constructor
+- Parameterized constructor
+- Copy constructor
+- Getters and setters
+- Point addition
+- Point subtraction
+- Distance calculation
+- "toString()" method
+
+Point Operations
+
+The class supports addition and subtraction of two Point objects and calculates the distance between two points.
+
+The copy constructor is also used to create an independent copy of a Point object.
+
+---
+
+Triangle.java
+
+The "Triangle" class represents a triangle using three Point objects.
+
+The Triangle class includes:
+
+- Three Point attributes: "p1", "p2", and "p3"
+- Default constructor
+- Parameterized constructor
+- Copying Point objects inside the constructor
+- Getters and setters
+- Perimeter calculation
+- Area calculation
+- Triangle type detection
+- "toString()" method
+
+The triangle is created using three Point objects and its perimeter, area, and type can be displayed.
+
+---
+
+Main.java
+
+The driver program demonstrates:
+
+- Creating Point objects
+- Point addition
+- Point subtraction
+- Copy constructor
+- Using "toString()"
+- Changing a Point object using setters
+- Creating a Triangle
+- Calculating Triangle perimeter
+- Calculating Triangle area
+- Detecting the Triangle type
+
+---
+
+2. Stack and Heap Visualization
+
+Folder: "StackHeapVisuals"
+
+This section demonstrates how Java objects and references work in memory.
+
+The visualization shows:
+
+- The "main" stack frame
+- Point object references stored in the stack
+- Point objects stored in the heap
+- References from stack variables to heap objects
+- Objects created during Point addition
+- Copy constructor and object independence
+
+The Stack and Heap diagram helps demonstrate the relationship between object references and actual objects in memory.
+
+---
+
+3. ComplexNumber
+
+Folder: "ComplexNumber"
+
+ComplexNumber.java
+
+The "ComplexNumber" class represents a complex number using real and imaginary parts.
+
+The class includes:
+
+- Private "real" attribute
+- Private "imaginary" attribute
+- Default constructor
+- Parameterized constructor
+- Copy constructor
+- Getters and setters
+- Addition
+- Subtraction
+- Multiplication
+- "toString()" method
+
+Complex Number Operations
+
+The class performs addition, subtraction, and multiplication between two ComplexNumber objects.
+
+The copy constructor is also used to create a separate copy of an existing complex number.
+
+---
+
+Main.java
+
+The driver demonstrates:
+
+- Creating ComplexNumber objects
+- Displaying complex numbers
+- Addition
+- Subtraction
+- Multiplication
+- Copy constructor
+- Using setters
+- Showing that a copied object is independent
+
+---
+
+4. RationalNumber
+
+Folder: "RationalNumber"
+
+RationalNumber.java
+
+The "RationalNumber" class represents a rational number using numerator and denominator.
+
+The class includes:
+
+- Private numerator attribute
+- Private denominator attribute
+- Default constructor
+- Parameterized constructor
+- Copy constructor
+- Getters and setters
+- Fraction simplification
+- Addition
+- Subtraction
+- "toString()" method
+- GCD helper method
+- Zero-denominator handling
+
+Rational Number Operations
+
+The class can simplify fractions and perform addition and subtraction between rational numbers.
+
+It also handles special cases such as a zero denominator and zero numerator.
+
+---
+
+Main.java
+
+The driver demonstrates:
+
+- Creating RationalNumber objects
+- Normal fraction operations
+- Fraction simplification
+- Copy constructor
+- Addition
+- Subtraction
+- Zero-denominator handling
+- Zero numerator case
+
+---
+
+5. Concepts Covered
+
+This assignment covers the following OOP concepts:
+
+- Classes and objects
+- Encapsulation
+- Private attributes
+- Constructors
+- Default constructors
+- Parameterized constructors
+- Copy constructors
+- Getters and setters
+- "this" keyword
+- Object references
+- Method calls using the dot operator
+- Method overloading through constructors
+- Object-to-object operations
+- "toString()"
+- Arithmetic methods
+- Helper methods
+- Object independence
+- Stack and heap visualization
+- Basic validation and edge-case handling
+
+---
+
+Folder Structure
+
+OOP-Assignment/
+│
+├── PointTriangle/
+│   ├── Point.java
+│   ├── Triangle.java
+│   └── Main.java
+│
+├── ComplexNumber/
+│   ├── ComplexNumber.java
+│   └── Main.java
+│
+├── RationalNumber/
+│   ├── RationalNumber.java
+│   └── Main.java
+│
+└── StackHeapVisuals/
+    └── Point Addition Stack Heap Diagram
+
+---
+
+Conclusion
+
+This assignment demonstrates the practical implementation of Object-Oriented Programming concepts in Java through Point, Triangle, ComplexNumber, and RationalNumber classes.
+
+The programs also demonstrate constructors, object references, object independence, arithmetic operations, and the relationship between stack references and heap objects.
